@@ -1,0 +1,71 @@
+/* Your existing styles */
+
+
+.dashing{
+   border: 5px dashed white;
+   fill: rgba(217, 217, 217, 0.05);
+backdrop-filter: blur(39.900001525878906px);
+}
+/* Style for the submit button */
+.submit-button {
+   position: relative;
+   background-color: black; /* Green background color */
+   width: 40%;
+   align-content: center;
+   justify-content: center;
+   font-family: 'Bruno Ace SC';
+   color: white; /* White text color */
+   padding:  1% 1% ; /* Padding around text */
+   border: 2px dashed wheat; /* No border */
+   border-radius: 5px; /* Rounded corners */
+   cursor: pointer; /* Pointer cursor on hover */
+   font-size: 16px; /* Font size */
+   transition: background-color 0.3s; /* Smooth transition for background color */
+ }
+ 
+ /* Change background color on hover */
+ .submit-button:hover {
+   background-color: rgba(217, 217, 217, 0.05);
+ }
+ 
+.shrink {
+   width: 100% ; /* Adjust as needed */
+   position: absolute;
+   margin-top: 300%;
+ }
+/* New media query for smaller screens */
+
+
+.text::placeholder{
+   color: white;
+}
+
+p{
+   align-content: center;
+   justify-content: center;
+}
+
+.photo-frame {
+   width: 300px; /* Adjust the width as needed */
+   height: 100%; /* Adjust the height as needed */
+   position: relative;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+ 
+ .photo-frame::before {
+   content: "";
+   fill: rgba(217, 217, 217, 0.05);
+   backdrop-filter: blur(39.900001525878906px);
+   position: absolute;
+   top: 5px; /* Adjust the top position for the frame */
+   left: 5px; /* Adjust the left position for the frame */
+   right: 5px; /* Adjust the right position for the frame */
+   bottom: 5px; /* Adjust the bottom position for the frame */
+   border: 2px dashed #ffffff; /* Adjust the border width and color as needed */
+   border-radius: 10px; /* Adjust the border-radius for rounded corners */
+   box-shadow: 0 0 10px rgba(255, 255, 255, 0.3); /* Add a subtle shadow for depth */
+   z-index: -1;
+ }
+ 
